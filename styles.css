@@ -63,6 +63,7 @@ header nav ul li a {
     border-radius: 5px;
 }
 
+
 /* Services Section */
 .services {
     padding: 60px 0;
@@ -80,7 +81,7 @@ header nav ul li a {
 }
 
 .card {
-    background: #f4f4f4;
+    background: black;
     padding: 20px;
     border-radius: 10px;
     flex: 1;
@@ -91,12 +92,13 @@ header nav ul li a {
     margin-bottom: 10px;
 }
 
+
 /* Footer */
 footer {
-    background: #2c3e50;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+    background: #0414a2;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
 }
 
 footer ul {
@@ -111,3 +113,19 @@ footer ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+/* privacy design */
+.privacycontainer {
+       max-width: 800px;
+       margin: auto;
+       background: #fff;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+.privacycontainer  h1,h2 {
+               color: #333;
+           }
+ .privacycontainer  p {
+               line-height: 1.6;
+           }
