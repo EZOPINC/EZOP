@@ -92,6 +92,13 @@ header nav ul li a {
     margin-bottom: 10px;
 }
 
+/*about section */
+.about {
+    background: linear-gradient(90deg, #f9f9fa 0%, #b9a9f4 40%);
+    color: #333;
+    padding: 60px;
+    text-align: left;
+}
 
 /* Footer */
 footer {
