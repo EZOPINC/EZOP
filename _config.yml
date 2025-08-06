@@ -1,0 +1,48 @@
+title: EZ Operation Inc.
+baseurl: "/webDevelopment"
+url: "https://ezops-lab.github.io/"
+theme: minima
+
+paginate: 6                # Show 6 posts per page
+paginate_path: "/blog/page:num"
+
+social:
+  name: EZ Operation Inc.
+  links:
+    - https://www.linkedin.com/ezoperationinc
+    - https://twitter.com/ezoperationinc
+    - https://facebook.com/ezoperationinc
+
+# SEO Defaults
+author: EZ Operation Team
+logo: /assets/images/ezoplogo.png
+twitter:
+  username: ezoperationinc
+
+collections:
+  authors:
+    output: true
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
