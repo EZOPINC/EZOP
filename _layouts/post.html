@@ -7,6 +7,12 @@ layout: default
     By {{ page.author | default: "EZ Operation Team" }} 
     | {{ page.date | date: "%B %d, %Y" }}
   </p>
+
+  <div class="content mb-4">
+    {{ content }}
+  </div>
+
+  <hr>
   {% if page.tags %}
     <p class="mt-3">
       <strong>Tags:</strong>
@@ -15,13 +21,7 @@ layout: default
       {% endfor %}
     </p>
   {% endif %}
-  <div class="content mb-4">
-    {{ content }}
-  </div>
-
-  <hr>
-
-  <hr>
+    <hr>
   {% include share-buttons.html %}
   <div class="d-flex justify-content-between">
     {% if page.previous %}
