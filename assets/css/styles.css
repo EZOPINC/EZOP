@@ -1,5 +1,12 @@
-/*
- * Styles for Services pages */
+
+/* Navbar styles */
+@media (min-width: 992px) {
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* removes the small delay/motion */
+  }
+}
+/* Styles for Services pages */
 .service-card {
   position: relative;
   overflow: hidden;
@@ -10,11 +17,22 @@
   transform: scale(1.02);
 }
 
+/* Responsive image for service cards */
 .service-img {
-  height: 200px;
   width: 100%;
-  object-fit: cover;
-  border-bottom: 1px solid #eee;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+/* Optional: Optimize card spacing on smaller screens */
+@media (max-width: 768px) {
+  .service-card {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .service-overlay {
