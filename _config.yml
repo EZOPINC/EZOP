@@ -1,6 +1,6 @@
 title: EZ Operation Inc.
-baseurl: "/EZOP"
-url: "https://ezopinc.ca/"
+baseurl: "/"
+url: "https://ezopinc.ca"
 theme: minima
 
 paginate: 6                # Show 6 posts per page
