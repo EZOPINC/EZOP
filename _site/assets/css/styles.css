@@ -1,5 +1,16 @@
-/*
- * Styles for Services pages */
+
+/* Navbar styles */
+@media (min-width: 992px) {
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* removes the small delay/motion */
+  }
+}
+
+
+
+
+/* Styles for Services pages */
 .service-card {
   position: relative;
   overflow: hidden;
