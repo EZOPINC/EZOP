@@ -33,16 +33,3 @@ function loadPartial(id, url) {
           document.getElementById("content-area").innerHTML = "<div class='container py-5'><h2>Page not found</h2><p>Sorry, we couldn’t load the page.</p></div>";
         });
     }
-
-// Add hover dropdown functionality for larger screens
- document.addEventListener('DOMContentLoaded', function () {
-    const dropdown = document.querySelector('.hover-dropdown');
-
-    if (window.innerWidth >= 992 && dropdown) {
-      const toggle = dropdown.querySelector('[data-bs-toggle="dropdown"]');
-      const dropdownInstance = bootstrap.Dropdown.getOrCreateInstance(toggle);
-
-      dropdown.addEventListener('mouseenter', () => dropdownInstance.show());
-      dropdown.addEventListener('mouseleave', () => dropdownInstance.hide());
-    }
-  });
