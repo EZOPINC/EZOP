@@ -9,7 +9,7 @@ description: " Services provided by EZ Operation Inc. "
   <!-- Service 1 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="assets/images/footprint.png" class="service-img" alt="Digital Footprint"/>
+      <img src="assets/images/footprint.png" class="service-img img-fluid" alt="Digital Footprint"/>
       <div class="card-body text-center">
         <i class="fas fa-globe service-icon"></i>
         <div class="service-title">Digital Footprint</div>
@@ -23,7 +23,7 @@ description: " Services provided by EZ Operation Inc. "
   <!-- Service 2 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="assets/images/infra.jpg" class="service-img" alt="Infrastructure Consulting"/>
+      <img src="assets/images/infra.jpg" class="service-img img-fluid" alt="Infrastructure Consulting"/>
       <div class="card-body text-center">
         <i class="fas fa-network-wired service-icon"></i>
         <div class="service-title">Infrastructure Consulting</div>
@@ -37,7 +37,7 @@ description: " Services provided by EZ Operation Inc. "
   <!-- Service 3 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="assets/images/database.jpg" class="service-img" alt="Database Solutions"/>
+      <img src="assets/images/database.jpg" class="service-img img-fluid" loading="lazy" alt="Database Solutions"/>
       <div class="card-body text-center">
         <i class="fas fa-database service-icon"></i>
         <div class="service-title">Database Solutions</div>
@@ -51,7 +51,7 @@ description: " Services provided by EZ Operation Inc. "
   <!-- Service 4 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="assets/images/cloud.jpg" class="service-img" alt="Cloud Migration"/>
+      <img src="assets/images/cloud.jpg" class="service-img img-fluid" loading="lazy" alt="Cloud Migration"/>
       <div class="card-body text-center">
         <i class="fas fa-cloud-upload-alt service-icon"></i>
         <div class="service-title">Cloud Migration</div>
@@ -65,7 +65,7 @@ description: " Services provided by EZ Operation Inc. "
   <!-- Service 5 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="assets/images/SEO.jpg" class="service-img" alt="SEO Consulting"/>
+      <img src="assets/images/SEO.jpg" class="service-img img-fluid" loading="lazy" alt="SEO Consulting"/>
       <div class="card-body text-center">
         <i class="fas fa-cogs service-icon"></i>
         <div class="service-title">SEO Consulting</div>
@@ -79,7 +79,7 @@ description: " Services provided by EZ Operation Inc. "
   <!-- Service 6 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="assets/images/strategy.png" class="service-img" alt="IT Strategy & Advisory"/>
+      <img src="assets/images/strategy.png" class="service-img" loading="lazy" alt="IT Strategy & Advisory"/>
       <div class="card-body text-center">
         <i class="fas fa-lightbulb service-icon"></i>
         <div class="service-title">IT Strategy & Advisory</div>
