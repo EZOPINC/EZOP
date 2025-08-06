@@ -1,0 +1,41 @@
+<footer class="bg-dark text-white pt-4 mt-5">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-uppercase">Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="{{ '/about' | relative_url }}" class="text-white text-decoration-none">About</a></li>
+          <li><a href="{{ '/privacy' | relative_url }}" class="text-white text-decoration-none">Privacy</a></li>
+          <li><a href="{{ '/terms' | relative_url }}" class="text-white text-decoration-none">Terms</a></li>
+          <li><a href="{{ '/contact' | relative_url }}" class="text-white text-decoration-none">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Contact Info -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-uppercase">Contact</h5>
+        <p class="mb-1">Email: ezoperationinc@gmail.com</p>
+        <p>Phone: +1 (306) 914-7817</p>
+      </div>
+      <!-- Social Media -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-uppercase">Follow Us</h5>
+        <div class="d-flex justify-content-center justify-content-md-start">
+          <a href="https://www.facebook.com/people/EZ-Operation-Inc/61573116299644/" class="btn btn-outline-light btn-sm me-2" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/ezoperationinc" class="btn btn-outline-light btn-sm me-2" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/ezoperationinc" class="btn btn-outline-light btn-sm me-2" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/ez-operation-inc-633633358/" class="btn btn-outline-light btn-sm" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="bg-secondary">
+    <!-- Footer Credits -->
+    <div class="text-center pb-3">
+      <small>
+        &copy; {{ site.time | date: "%Y" }} EZ Operation Inc. 100% independent. <br>
+        Last updated on: {{ site.time | date: "%B %d, %Y" }}
+      </small>
+    </div>
+  </div>
+</footer>

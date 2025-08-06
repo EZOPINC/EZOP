@@ -1,0 +1,12 @@
+{% seo %}
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:title" content="{{ page.title | escape }}">
+<meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | escape }}">
+<meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
+<meta name="twitter:url" content="{{ page.url | absolute_url }}">
+<meta name="twitter:image" content="{{ page.image | default: site.logo | absolute_url }}"> 
+<meta name="keywords" content="{{ page.keywords | default: site.keywords | join: ', ' }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">

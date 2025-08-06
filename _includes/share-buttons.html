@@ -1,0 +1,30 @@
+<div class="social-share">
+  <span>Share this post:</span>
+  
+  <a class="share-btn linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{ page.title }}" target="_blank" title="Share on LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  
+  <a class="share-btn x" href="https://x.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" target="_blank" title="Share on X">
+    <i class="fab fa-x-twitter"></i> 
+  </a>
+  
+  <a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" title="Share on Facebook">
+    <i class="fab fa-facebook-f"></i> 
+  </a>
+
+  <a class="share-btn whatsapp" href="https://api.whatsapp.com/send?text={{ page.title }}%20{{ page.url | absolute_url }}" target="_blank" title="Share on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Reddit -->
+  <a class="share-btn reddit" href="https://www.reddit.com/submit?url={{ page.url | absolute_url }}&title={{ page.title }}" target="_blank" title="Share on Reddit">
+    <i class="fab fa-reddit"></i>
+  </a>
+
+  <!-- Email -->
+  <a class="share-btn email" href="mailto:?subject={{ page.title }}&body=Check out this article: {{ page.url | absolute_url }}" target="_blank" title="Share via Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+  
+</div>

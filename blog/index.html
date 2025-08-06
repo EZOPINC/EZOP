@@ -1,0 +1,46 @@
+---
+layout: default
+title: Blog
+description: "Latest insights, tips, and updates from EZ Operation Inc."
+author: "EZ Operation Team"
+pagination:
+    enabled: true
+---
+
+<h1>Latest Posts</h1>
+
+<p class="lead">Welcome to our blog! Here you'll find the latest insights, tips, and updates from EZ Operation Inc.</p>
+
+<div class="row g-4">
+  {% if paginator.posts %}
+    {% assign posts_to_display = paginator.posts %}
+  {% else %}
+    {% assign posts_to_display = site.posts %}
+  {% endif %}
+
+  {% for post in posts_to_display %}
+    <div class="col-md-6 col-lg-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="{{ post.url | relative_url }}" class="text-decoration-none">{{ post.title }}</a>
+          </h5>
+          <p class="text-muted">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p>{{ post.description | default: post.excerpt | strip_html | truncatewords: 20 }}</p>
+          <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<div class="mt-4 text-center">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="btn btn-outline-primary">Previous</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="btn btn-outline-primary">Next</a>
+  {% endif %}
+</div>
+{% endif %}
