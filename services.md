@@ -1,116 +1,88 @@
 ---
 layout: default
 title: "Services"
-description: " Services provided by EZ Operation Inc. "
+description: "Services provided by EZ Operation Inc."
 ---
 
-<div class="row g-4 mt-5 justify-content-center text-center " id="services">
-  <h2> Our Services </h2>
-  <!-- Service 1 -->
-  <div class="col-md-4">
-<<<<<<< HEAD
-    <div class="card h-100 service-card shadow-sm">
-      <img src="assets/images/footprint.png" class="service-img img-fluid" alt="Digital Footprint"/>
-=======
-    <div class="card service-card shadow-sm">
-      <img src="assets/images/footprint.png" class="service-img" alt="Digital Footprint"/>
->>>>>>> 015d4bd26b5aee6d140645bb299226f92774c883
-      <div class="card-body text-center">
-        <i class="fas fa-globe service-icon"></i>
-        <div class="service-title">Digital Footprint</div>
-      </div>
-      <div class="service-overlay">
-        Design, develop and optimize websites with SEO consulting to improve visibility and engagement.
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Our Services</h2>
+  <div class="row g-4 justify-content-center text-center" id="services">
+    <!-- Service 1 -->
+    <div class="col-md-4">
+      <div class="card h-100 service-card shadow-sm">
+        <img src="assets/images/footprint.png" class="service-img img-fluid" alt="Digital Footprint" />
+        <div class="card-body text-center">
+          <i class="fas fa-globe service-icon"></i>
+          <div class="service-title">Digital Footprint</div>
+        </div>
+        <div class="service-overlay">
+          Design, develop and optimize websites with SEO consulting to improve visibility and engagement.
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Service 2 -->
-  <div class="col-md-4">
-<<<<<<< HEAD
-    <div class="card h-100 service-card shadow-sm">
-      <img src="assets/images/infra.jpg" class="service-img img-fluid" alt="Infrastructure Consulting"/>
-=======
-    <div class="card service-card shadow-sm">
-      <img src="assets/images/infra.jpg" class="service-img" alt="Infrastructure Consulting"/>
->>>>>>> 015d4bd26b5aee6d140645bb299226f92774c883
-      <div class="card-body text-center">
-        <i class="fas fa-network-wired service-icon"></i>
-        <div class="service-title">Infrastructure Consulting</div>
-      </div>
-      <div class="service-overlay">
-        Design, implement, and optimize IT infrastructure for scalability, reliability, and security.
+    <!-- Service 2 -->
+    <div class="col-md-4">
+      <div class="card h-100 service-card shadow-sm">
+        <img src="assets/images/infra.jpg" class="service-img img-fluid" alt="Infrastructure Consulting" />
+        <div class="card-body text-center">
+          <i class="fas fa-network-wired service-icon"></i>
+          <div class="service-title">Infrastructure Consulting</div>
+        </div>
+        <div class="service-overlay">
+          Design, implement, and optimize IT infrastructure for scalability, reliability, and security.
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Service 3 -->
-  <div class="col-md-4">
-<<<<<<< HEAD
-    <div class="card h-100 service-card shadow-sm">
-      <img src="assets/images/database.jpg" class="service-img img-fluid" loading="lazy" alt="Abstract digital database concept with glowing blue binary code and data streams in a futuristic technology environment. The scene conveys innovation, connectivity, and high-tech efficiency. No visible text in the image."/>
-=======
-    <div class="card service-card shadow-sm">
-      <img src="assets/images/database.jpg" class="service-img" alt="Database Solutions"/>
->>>>>>> 015d4bd26b5aee6d140645bb299226f92774c883
-      <div class="card-body text-center">
-        <i class="fas fa-database service-icon"></i>
-        <div class="service-title">Database Solutions</div>
-      </div>
-      <div class="service-overlay">
-        Streamline your databases for performance tuning, high availability, and compliance.
+    <!-- Service 3 -->
+    <div class="col-md-4">
+      <div class="card h-100 service-card shadow-sm">
+        <img src="assets/images/database.jpg" class="service-img img-fluid" loading="lazy" alt="Database Solutions" />
+        <div class="card-body text-center">
+          <i class="fas fa-database service-icon"></i>
+          <div class="service-title">Database Solutions</div>
+        </div>
+        <div class="service-overlay">
+          Streamline your databases for performance tuning, high availability, and compliance.
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Service 4 -->
-  <div class="col-md-4">
-<<<<<<< HEAD
-    <div class="card h-100 service-card shadow-sm">
-      <img src="assets/images/cloud.jpg" class="service-img img-fluid" loading="lazy" alt="Cloud Migration"/>
-=======
-    <div class="card service-card shadow-sm">
-      <img src="assets/images/cloud.jpg" class="service-img" alt="Cloud Migration"/>
->>>>>>> 015d4bd26b5aee6d140645bb299226f92774c883
-      <div class="card-body text-center">
-        <i class="fas fa-cloud-upload-alt service-icon"></i>
-        <div class="service-title">Cloud Migration</div>
-      </div>
-      <div class="service-overlay">
-        Seamless migration of on-premise systems to secure and scalable cloud infrastructure.
+    <!-- Service 4 -->
+    <div class="col-md-4">
+      <div class="card h-100 service-card shadow-sm">
+        <img src="assets/images/cloud.jpg" class="service-img img-fluid" loading="lazy" alt="Cloud Migration" />
+        <div class="card-body text-center">
+          <i class="fas fa-cloud-upload-alt service-icon"></i>
+          <div class="service-title">Cloud Migration</div>
+        </div>
+        <div class="service-overlay">
+          Seamless migration of on-premise systems to secure and scalable cloud infrastructure.
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Service 5 -->
-  <div class="col-md-4">
-<<<<<<< HEAD
-    <div class="card h-100 service-card shadow-sm">
-      <img src="assets/images/SEO.jpg" class="service-img img-fluid" loading="lazy" alt="SEO Consulting"/>
-=======
-    <div class="card service-card shadow-sm">
-      <img src="assets/images/SEO.jpg" class="service-img" alt="SEO Consulting"/>
->>>>>>> 015d4bd26b5aee6d140645bb299226f92774c883
-      <div class="card-body text-center">
-        <i class="fas fa-cogs service-icon"></i>
-        <div class="service-title">SEO Consulting</div>
-      </div>
-      <div class="service-overlay">
-        Accelerate your online presence with expert SEO strategies to boost search rankings and traffic.
+    <!-- Service 5 -->
+    <div class="col-md-4">
+      <div class="card h-100 service-card shadow-sm">
+        <img src="assets/images/SEO.jpg" class="service-img img-fluid" loading="lazy" alt="SEO Consulting" />
+        <div class="card-body text-center">
+          <i class="fas fa-cogs service-icon"></i>
+          <div class="service-title">SEO Consulting</div>
+        </div>
+        <div class="service-overlay">
+          Accelerate your online presence with expert SEO strategies to boost search rankings and traffic.
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Service 6 -->
-  <div class="col-md-4">
-<<<<<<< HEAD
-    <div class="card h-100 service-card shadow-sm">
-      <img src="assets/images/strategy.png" class="service-img" loading="lazy" alt="IT Strategy & Advisory"/>
-=======
-    <div class="card service-card shadow-sm">
-      <img src="assets/images/strategy.png" class="service-img" alt="IT Strategy & Advisory"/>
->>>>>>> 015d4bd26b5aee6d140645bb299226f92774c883
-      <div class="card-body text-center">
-        <i class="fas fa-lightbulb service-icon"></i>
-        <div class="service-title">IT Strategy & Advisory</div>
-      </div>
-      <div class="service-overlay">
-        Align technology initiatives with your business goals through expert IT consulting.
+    <!-- Service 6 -->
+    <div class="col-md-4">
+      <div class="card h-100 service-card shadow-sm">
+        <img src="assets/images/strategy.png" class="service-img img-fluid" loading="lazy" alt="IT Strategy & Advisory" />
+        <div class="card-body text-center">
+          <i class="fas fa-lightbulb service-icon"></i>
+          <div class="service-title">IT Strategy & Advisory</div>
+        </div>
+        <div class="service-overlay">
+          Align technology initiatives with your business goals through expert IT consulting.
+        </div>
       </div>
     </div>
   </div>

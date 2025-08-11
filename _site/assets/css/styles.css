@@ -1,17 +1,5 @@
-<<<<<<< HEAD
-
-/* Navbar styles */
-@media (min-width: 992px) {
-  .navbar .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0; /* removes the small delay/motion */
-  }
-}
-/* Styles for Services pages */
-=======
 /*
  * Styles for Services pages */
->>>>>>> 015d4bd26b5aee6d140645bb299226f92774c883
 .service-card {
   height: 100%;
   display: flex;
@@ -23,9 +11,10 @@
   transform: scale(1.02);
 }
 
-/* Responsive image for service cards */
 .service-img {
+  height: 200px;
   width: 100%;
+<<<<<<< HEAD
   height: 200px; /* fixed height */
   object-fit: cover; /* or use "contain" depending on your use case */
   display: block;
@@ -38,6 +27,10 @@
   .service-card {
     margin-bottom: 1.5rem;
   }
+=======
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+>>>>>>> 015d4bd26b5aee6d140645bb299226f92774c883
 }
 
 .service-overlay {
