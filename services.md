@@ -13,10 +13,10 @@ description: "Services provided by EZ Operation Inc."
         <img src="assets/images/footprint.jpg" class="service-img img-fluid" alt="Digital Footprint" />
         <div class="card-body text-center">
           <i class="fas fa-globe service-icon"></i>
-          <div class="service-title">Digital Footprint</div>
+          <div class="service-title">Website Design and Develop</div>
         </div>
         <div class="service-overlay">
-          Design, develop and optimize websites with SEO consulting to improve visibility and engagement.
+          Design, develop and optimize websites with our professionals to improve visibility and engagement.
         </div>
       </div>
     </div>
@@ -85,5 +85,6 @@ description: "Services provided by EZ Operation Inc."
         </div>
       </div>
     </div>
+
   </div>
 </div>
