@@ -17,7 +17,7 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
   <!-- Service 1 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="assets/images/footprint.png" class="service-img" alt="Digital Footprint"/>
+      <img src="assets/images/footprint.jpg" class="service-img" alt="Digital Footprint"/>
       <div class="card-body text-center">
         <i class="fas fa-globe service-icon"></i>
         <div class="service-title">Digital Footprint</div>
@@ -87,7 +87,7 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
   <!-- Service 6 -->
   <div class="col-md-4">
     <div class="card service-card shadow-sm">
-      <img src="assets/images/strategy.png" class="service-img" alt="IT Strategy & Advisory"/>
+      <img src="assets/images/strategy.jpg" class="service-img" alt="IT Strategy & Advisory"/>
       <div class="card-body text-center">
         <i class="fas fa-lightbulb service-icon"></i>
         <div class="service-title">IT Strategy & Advisory</div>
