@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* Navbar styles */
 @media (min-width: 992px) {
@@ -7,6 +8,10 @@
   }
 }
 /* Styles for Services pages */
+=======
+/*
+ * Styles for Services pages */
+>>>>>>> 015d4bd26b5aee6d140645bb299226f92774c883
 .service-card {
   height: 100%;
   display: flex;
