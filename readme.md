@@ -102,7 +102,7 @@ bundle install
 # Serve the site locally
 bundle exec jekyll serve
 
-# Open in browser
+# Open in browser (for local)
 http://localhost:4000
 
 
