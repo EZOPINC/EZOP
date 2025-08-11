@@ -8,7 +8,7 @@ description: " Services provided by EZ Operation Inc. "
   <h2> Our Services </h2>
   <!-- Service 1 -->
   <div class="col-md-4">
-    <div class="card service-card shadow-sm">
+    <div class="card h-100 service-card shadow-sm">
       <img src="assets/images/footprint.png" class="service-img img-fluid" alt="Digital Footprint"/>
       <div class="card-body text-center">
         <i class="fas fa-globe service-icon"></i>
@@ -19,10 +19,9 @@ description: " Services provided by EZ Operation Inc. "
       </div>
     </div>
   </div>
-
   <!-- Service 2 -->
   <div class="col-md-4">
-    <div class="card service-card shadow-sm">
+    <div class="card h-100 service-card shadow-sm">
       <img src="assets/images/infra.jpg" class="service-img img-fluid" alt="Infrastructure Consulting"/>
       <div class="card-body text-center">
         <i class="fas fa-network-wired service-icon"></i>
@@ -33,11 +32,10 @@ description: " Services provided by EZ Operation Inc. "
       </div>
     </div>
   </div>
-
   <!-- Service 3 -->
   <div class="col-md-4">
-    <div class="card service-card shadow-sm">
-      <img src="assets/images/database.jpg" class="service-img img-fluid" loading="lazy" alt="Database Solutions"/>
+    <div class="card h-100 service-card shadow-sm">
+      <img src="assets/images/database.jpg" class="service-img img-fluid" loading="lazy" alt="Abstract digital database concept with glowing blue binary code and data streams in a futuristic technology environment. The scene conveys innovation, connectivity, and high-tech efficiency. No visible text in the image."/>
       <div class="card-body text-center">
         <i class="fas fa-database service-icon"></i>
         <div class="service-title">Database Solutions</div>
@@ -47,10 +45,9 @@ description: " Services provided by EZ Operation Inc. "
       </div>
     </div>
   </div>
-
   <!-- Service 4 -->
   <div class="col-md-4">
-    <div class="card service-card shadow-sm">
+    <div class="card h-100 service-card shadow-sm">
       <img src="assets/images/cloud.jpg" class="service-img img-fluid" loading="lazy" alt="Cloud Migration"/>
       <div class="card-body text-center">
         <i class="fas fa-cloud-upload-alt service-icon"></i>
@@ -61,10 +58,9 @@ description: " Services provided by EZ Operation Inc. "
       </div>
     </div>
   </div>
-
   <!-- Service 5 -->
   <div class="col-md-4">
-    <div class="card service-card shadow-sm">
+    <div class="card h-100 service-card shadow-sm">
       <img src="assets/images/SEO.jpg" class="service-img img-fluid" loading="lazy" alt="SEO Consulting"/>
       <div class="card-body text-center">
         <i class="fas fa-cogs service-icon"></i>
@@ -75,10 +71,9 @@ description: " Services provided by EZ Operation Inc. "
       </div>
     </div>
   </div>
-
   <!-- Service 6 -->
   <div class="col-md-4">
-    <div class="card service-card shadow-sm">
+    <div class="card h-100 service-card shadow-sm">
       <img src="assets/images/strategy.png" class="service-img" loading="lazy" alt="IT Strategy & Advisory"/>
       <div class="card-body text-center">
         <i class="fas fa-lightbulb service-icon"></i>
@@ -88,3 +83,5 @@ description: " Services provided by EZ Operation Inc. "
         Align technology initiatives with your business goals through expert IT consulting.
       </div>
     </div>
+  </div>
+</div>
