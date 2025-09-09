@@ -8,7 +8,7 @@ description: "Contact us to connect with EZ Operation Inc. for consultations or 
   <h2>Contact Us</h2>
   <p>Reach out to us for consultations or support.</p>
   <ul class="list-unstyled">
-    <li><strong>Email:</strong> ezoperationinc@gmail.com</li>
+    <li><strong>Email:</strong> support@ezopinc.ca</li>
     <li><strong>Phone:</strong> +1 (306) 914 7817</li>
   </ul>
   <div class="google-form">
