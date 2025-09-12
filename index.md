@@ -103,9 +103,13 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
     <div class="testimonial-grid">
       {% for t in site.data.testimonials.testimonials %}
       <div class="testimonial-card">
-        <img src="{{ t.image }}" alt="{{ t.name }}" class="testimonial-img">
         <p class="testimonial-review">“{{ t.review }}”</p>
-        <h3 class="testimonial-name">{{ t.name }}</h3>
+            <div class="testimonial-stars">
+                {% for i in (1..t.stars) %}
+                  ★
+                {% endfor %}
+            </div>
+        <h3 class="testimonial-name"> {{ t.name }} </h3>
         <p class="testimonial-role">{{ t.role }}</p>
         <a href="{{ t.project }}" target="_blank" class="testimonial-link">View Project →</a>
       </div>

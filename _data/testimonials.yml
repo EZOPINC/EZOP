@@ -2,17 +2,23 @@ testimonials:
   - name: "Sarah M."
     role: "Startup Founder"
     review: "EZOPINC helped us launch our website quickly and professionally. The team was responsive and delivered exactly what we needed."
+    stars: 5
     project: "https://clientproject1.com"
-    image: "/assets/images/testimonials/sarah.jpg"
 
   - name: "David K."
     role: "E-commerce Owner"
     review: "The premium package gave us a sleek online store with integrated payments. Our sales increased by 30% in just two months."
+    stars: 5
     project: "https://clientproject2.com"
-    image: "/assets/images/testimonials/david.jpg"
 
   - name: "Anita R."
     role: "Nonprofit Director"
     review: "EZOPINC built us a donation portal that is easy for our supporters to use. They also trained our team to manage it."
+    stars: 5
     project: "https://clientproject3.com"
-    image: "/assets/images/testimonials/anita.jpg"
+
+  - name: "John Doe"
+    role: "Small Business Owner"
+    review: "EZOPINC delivered exactly what I needed. The process was smooth and professional."
+    stars: 5
+    project_url: "https://example.com"

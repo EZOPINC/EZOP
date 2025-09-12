@@ -2,6 +2,8 @@
   background: #f9f9fb;
   padding: 4rem 1rem;
   text-align: center;
+  border: #181717 2px solid ;
+  border-radius: 12px;
 }
 
 .section-title {
@@ -13,6 +15,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
+  margin-top: 2rem;
 }
 
 .testimonial-card {
@@ -23,6 +26,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .testimonial-img {
@@ -37,6 +41,12 @@
   font-style: italic;
   margin-bottom: 1rem;
   color: #444;
+}
+
+.testimonial-stars {
+  color: #f5b50a;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
 }
 
 .testimonial-name {
