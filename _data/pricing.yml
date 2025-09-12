@@ -63,7 +63,7 @@ plans:
       - "Content management"
       - "Ongoing SEO"
       - "Security monitoring"
-    button: "Subscribe"
+    button: "Contact Us"
     url: "/contact/"
 
   - name: Enterprise

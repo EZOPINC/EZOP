@@ -6,7 +6,7 @@ permalink: /pricing/
 
 <section class="pricing-section">
   <div class="container">
-    <h1 class="pricing-title">Our Pricing Plans</h1>
+    <h1 class="pricing-title">Website Building and Designing packages</h1>
     <p class="pricing-subtitle">Choose the right package for you — start free and scale as you grow. Any questions, contact us and we will always be there to answer.</p>
     <div class="pricing-grid">
       {% for plan in site.data.pricing.plans %}
