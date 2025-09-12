@@ -30,7 +30,7 @@ layout: default
     {% if page.next %}
       <a href="{{ page.next.url | relative_url }}" class="btn btn-outline-primary">Next &rarr;</a>
     {% endif %}
-    <a href="{{ site.baseurl }}/blog" class="btn btn-outline-secondary"> Back to Blogs</a>
+    <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline-secondary"> Back to Blogs</a>
   </div>
 </article>
 
