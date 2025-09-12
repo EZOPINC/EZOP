@@ -21,10 +21,10 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
         <img src="assets/images/footprint.jpg" class="service-img" alt="Digital Footprint"/>
         <div class="card-body text-center">
           <i class="fas fa-globe service-icon"></i>
-          <div class="service-title">Digital Footprint</div>
+          <div class="service-title">Website Designing and hosting</div>
         </div>
         <div class="service-overlay">
-          Design, develop and optimize websites with SEO consulting to improve visibility and engagement.
+          Design, develop and optimize websites to improve visibility and engagement. 
         </div>
       </div>
     </div>
