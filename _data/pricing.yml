@@ -1,0 +1,66 @@
+plans:
+  - name: Free
+    price: "$0"
+    frequency: "one-time"
+    features:
+      - "1-page landing site"
+      - "Basic template design"
+      - "Community/email support"
+    button: "Get Started"
+    url: "/contact/"
+
+  - name: Starter
+    price: "$299"
+    frequency: "one-time"
+    features:
+      - "Up to 5 pages"
+      - "Domain + hosting setup"
+      - "Mobile-friendly design"
+      - "Basic SEO setup"
+    button: "Choose Starter"
+    url: "/contact/"
+
+  - name: Professional
+    price: "$799"
+    frequency: "one-time"
+    features:
+      - "Up to 10 pages"
+      - "Blog integration"
+      - "SSL & analytics"
+      - "1 month support"
+    button: "Choose Professional"
+    url: "/contact/"
+    popular: true
+
+  - name: Premium
+    price: "$1,499"
+    frequency: "one-time"
+    features:
+      - "Custom design, 20+ pages"
+      - "E-commerce setup"
+      - "Advanced SEO"
+      - "3 months support"
+    button: "Choose Premium"
+    url: "/contact/"
+
+  - name: Business Support
+    price: "$299"
+    frequency: "per month"
+    features:
+      - "Website updates & backups"
+      - "Content management"
+      - "Ongoing SEO"
+      - "Security monitoring"
+    button: "Subscribe"
+    url: "/contact/"
+
+  - name: Enterprise
+    price: "Custom Quote"
+    frequency: ""
+    features:
+      - "Web apps & portals"
+      - "API integrations"
+      - "Dedicated support team"
+      - "SLAs & priority response"
+    button: "Contact Us"
+    url: "/contact/"
