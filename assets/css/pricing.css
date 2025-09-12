@@ -22,17 +22,21 @@
 }
 
 .pricing-card {
-    background: #fff;
-    border: 1px solid #eee;
-    border-radius: 12px;
-    padding: 2rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    position: relative;
-    transition: transform 0.2s;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  position: relative;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;      /* stack content vertically */
+  justify-content: space-between; /* push button to bottom */
 }
 
 .pricing-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .pricing-card h2 {
@@ -55,6 +59,8 @@
     padding: 0;
     margin: 1.5rem 0;
     text-align: left;
+    flex-grow: 1; /* allow list to grow and push button down */
+    margin-bottom: 2rem; /* space between list and button */
 }
 
 .pricing-card li {
@@ -62,34 +68,29 @@
     color: #444;
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.6rem 1.2rem;
-    border-radius: 8px;
-    background: #eee;
-    color: #333;
-    text-decoration: none;
-    transition: background 0.2s;
-    font-weight: bold;
-    margin-top: 1rem;
-    border: navy;
+/* Button styling */
+.choice-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;           /* bold text */
+  background: #007bff;         /* blue background */
+  color: #fff;                 /* white text */
+  text-decoration: none;
+  transition: background 0.2s;
+  text-align: center;
 }
 
-.btn:hover {
-    background: #007bff;
-    color: #000;
-    border: navy;
-    border-width: 2px;
-    border-style: solid;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.choice-btn:hover {
+  background: #0056b3;         /* darker blue on hover */
 }
 
-.btn.primary {
+.choice-btn.primary {
     background: #007bff;
     color: #fff;
 }
 
-.btn.primary:hover {
+.choice-btn.primary:hover {
     background: #0062cc;
 }
 

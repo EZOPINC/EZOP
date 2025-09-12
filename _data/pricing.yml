@@ -1,11 +1,15 @@
 plans:
-  - name: Free
+  - name: Free*
     price: "$0"
     frequency: "one-time"
     features:
-      - "1-page landing site"
+      - "3-page landing site"
       - "Basic template design"
+      - "Standard SEO"
+      - "100% copyright on the content"
       - "Community/email support"
+      - "Domain + hosting setup"
+      - "* Limited-time offer"
     button: "Get Started"
     url: "/contact/"
 
@@ -13,10 +17,13 @@ plans:
     price: "$299"
     frequency: "one-time"
     features:
-      - "Up to 5 pages"
+      - "Up to 6 pages"
       - "Domain + hosting setup"
       - "Mobile-friendly design"
-      - "Basic SEO setup"
+      - "Optimized SEO setup"
+      - "2 weeks support"
+      - "100% copyright on the content"
+      - "Google Analytics setup"
     button: "Choose Starter"
     url: "/contact/"
 
@@ -24,10 +31,12 @@ plans:
     price: "$799"
     frequency: "one-time"
     features:
+      - "Everything in Starter"
       - "Up to 10 pages"
       - "Blog integration"
       - "SSL & analytics"
-      - "1 month support"
+      - "CMS setup (WordPress/Wix/Squarespace)"
+      - "6 month support"
     button: "Choose Professional"
     url: "/contact/"
     popular: true
@@ -36,10 +45,13 @@ plans:
     price: "$1,499"
     frequency: "one-time"
     features:
+      - "Everything in Professional"
       - "Custom design, 20+ pages"
       - "E-commerce setup"
       - "Advanced SEO"
-      - "3 months support"
+      - "Performance optimization"
+      - "Any third-party integrations"
+      - "1 Year support"
     button: "Choose Premium"
     url: "/contact/"
 

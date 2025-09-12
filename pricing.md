@@ -7,7 +7,7 @@ permalink: /pricing/
 <section class="pricing-section">
   <div class="container">
     <h1 class="pricing-title">Our Pricing Plans</h1>
-    <p class="pricing-subtitle">Choose the right package for your business — start free and scale as you grow.</p>
+    <p class="pricing-subtitle">Choose the right package for you — start free and scale as you grow. Any questions, contact us and we will always be there to answer.</p>
     <div class="pricing-grid">
       {% for plan in site.data.pricing.plans %}
       <div class="pricing-card {% if plan.popular %}popular{% endif %}">
@@ -21,7 +21,7 @@ permalink: /pricing/
           <li>{{ feature }}</li>
           {% endfor %}
         </ul>
-        <a href="{{ plan.url }}" class="btn {% if plan.popular %}primary{% endif %}">{{ plan.button }}</a>
+        <a href="{{ plan.url }}" class="choice-btn {% if plan.popular %}primary{% endif %}">{{ plan.button }}</a>
       </div>
       {% endfor %}
     </div>
