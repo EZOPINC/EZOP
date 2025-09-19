@@ -1,4 +1,5 @@
 title: EZ Operation Inc.
+description: "EZOPINC provides innovative IT solutions, website design, consulting, and digital transformation for businesses of all sizes."
 baseurl: "/"
 url: "https://ezopinc.ca"
 theme: minima
@@ -6,18 +7,35 @@ theme: minima
 paginate: 6                # Show 6 posts per page
 paginate_path: "/blog/page:num"
 
+# SEO Defaults
 social:
   name: EZ Operation Inc.
   links:
     - https://www.linkedin.com/ezoperationinc
     - https://twitter.com/ezoperationinc
     - https://facebook.com/ezoperationinc
-
-# SEO Defaults
+    - https://www.instagram.com/ezoperationinc
 author: EZ Operation Team
-logo: /assets/images/ezoplogo.png
+logo: /assets/images/logo.png
+og_image: /assets/images/og-default.png
+##Make sure /assets/images/logo.png and /assets/images/og-default.png exist.
+#logo.png should be square (used in schema / structured data).
+#og-default.png should be 1200x630px for Facebook/LinkedIn previews.
+#You can use https://og-image.now.sh/ to generate a quick og image if you don't have one.
+
+
+keywords:
+  - Website Design
+  - IT Consulting
+  - Digital Transformation
+  - Business Support
+  - Cloud Solutions
+  - Database Management
+  - Startup Websites
+  - Enterprise Solutions
 twitter:
   username: ezoperationinc
+
 
 collections:
   authors:

@@ -1,7 +1,6 @@
 plans:
   - name: Free*
-    price: "$0"
-    frequency: "one-time"
+    price: "$0"    
     features:
       - "3-page landing site"
       - "Basic template design"
@@ -15,7 +14,6 @@ plans:
 
   - name: Starter
     price: "$299"
-    frequency: "one-time"
     features:
       - "Up to 6 pages"
       - "Domain + hosting setup"
@@ -29,7 +27,6 @@ plans:
 
   - name: Professional
     price: "$799"
-    frequency: "one-time"
     features:
       - "Everything in Starter"
       - "Up to 10 pages"
@@ -42,11 +39,10 @@ plans:
     popular: true
 
   - name: Premium
-    price: "$1,499"
-    frequency: "one-time"
+    price: "$2,999"
     features:
       - "Everything in Professional"
-      - "Custom design, 20+ pages"
+      - "Custom design, tailored to your brand"
       - "E-commerce setup"
       - "Advanced SEO"
       - "Performance optimization"
@@ -57,7 +53,7 @@ plans:
 
   - name: Business Support
     price: "$299"
-    frequency: "per month"
+    frequency: "monthly"
     features:
       - "Website updates & backups"
       - "Content management"
@@ -68,7 +64,6 @@ plans:
 
   - name: Enterprise
     price: "Custom Quote"
-    frequency: ""
     features:
       - "Web apps & portals"
       - "API integrations"
