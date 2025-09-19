@@ -22,10 +22,14 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
 
 <section class="bg-light py-5" id="careers">
   <div class="container text-center">
-    
     <p class="mb-4">We're growing and looking for passionate individuals to join our team. If you're excited about creating innovative digital solutions and making a real impact, we’d love to hear from you.</p>
+     <ul class="mb-4 list-unstyled fw-bold">
+      <li>Website Designer</li>
+      <li>Python Developer</li>
+      <li>Marketing Consultant</li>
+      <li>Junior Data Engineer</li>
+    </ul>
     <a href="mailto:ezoperationinc@gmail.com?subject=Job%20Application" class="btn btn-primary px-4">
-      <i class="fas fa-paper-plane me-2"></i>Make an Impact now
-    </a>
+      <i class="fas fa-paper-plane me-2"></i>Send your CV</a>
   </div>
 </section>

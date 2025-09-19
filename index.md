@@ -1,20 +1,20 @@
 ---
 layout: default
 title: "Home"
-description: "Learn about EZ Operation's mission, expertise, and commitment to digital transformation."
+description: "website design, SEO optimization, IT consulting, digital transformation for businesses of all sizes."
 ---
 
-  <!-- Dynamic Content Area -->
 <section class="py-5 text-center bg-light" id="content-area">
     <div class="container">
       <h1 class="display-5 fw-bold">Transforming Businesses with Innovative IT Solutions</h1>
       <p class="lead">Expert IT consulting for infrastructure, databases, and digital transformation.</p>
       <p class="mb-4">Book an appointment at <strong>+1 (306) 914-7817</strong></p>
-      <a href="{{'/contact' | relative_url }}" class="btn btn-primary btn-lg">Get a Free Consultation</a>
+      <a href="{{'/contact' | relative_url }}" class="btn btn-primary btn-lg">Book a Free Consultation</a>
     </div>
   
   <div class="row g-4 mt-5 justify-content-center text-center " id="services">
     <h2> Services </h2>
+    <p class="mb-5">We provide a complete range of IT and digital solutions to help you stay competitive, scalable, and future-ready.</p>
      <!-- Service 1 -->
     <div class="col-md-4">
       <div class="card service-card shadow-sm">
@@ -96,6 +96,17 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
   </div>
 </section>
 
+<section class="py-5 bg-light" id="why-choose">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Why Choose EZOPINC?</h2>
+    <ul class="list-unstyled">
+      <li>✔️ Affordable packages tailored to startups, SMEs, and enterprises</li>
+      <li>✔️ Free starter website options for individuals and small businesses</li>
+      <li>✔️ Dedicated support and maintenance to keep your business running smoothly</li>
+      <li>✔️ Proven expertise in IT, databases, and cloud migration</li>
+    </ul>
+  </div>
+</section>
 
 <section class="testimonials">
   <div class="container">
@@ -115,5 +126,13 @@ description: "Learn about EZ Operation's mission, expertise, and commitment to d
       </div>
       {% endfor %}
     </div>
+  </div>
+</section>
+
+<section class="py-5" id="cta">
+  <div class="container text-center">
+    <h2 class="fw-bold">Let’s Build Your Digital Future Together</h2>
+    <p class="mb-4">Partner with EZOPINC to unlock growth opportunities and establish a stronger online presence. Whether you need a simple portfolio site, an enterprise solution, or complete IT transformation — we’ve got you covered.</p>
+    <a href="{{'/contact' | relative_url }}" class="btn btn-success btn-lg">Get Started Today</a>
   </div>
 </section>
