@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Home"
-description: "EZOPINC – Innovative IT solutions, website design, consulting, and digital transformation for businesses of all sizes."
+description: "website design, SEO optimization, IT consulting, digital transformation for businesses of all sizes."
 ---
 
 <section class="py-5 text-center bg-light" id="content-area">
