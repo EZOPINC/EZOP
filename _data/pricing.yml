@@ -10,7 +10,7 @@ plans:
       - "Domain + hosting setup"
       - "* Limited-time offer"
     button: "Get Started"
-    url: "/contact/"
+    url: "/contact"
 
   - name: Starter
     price: "$299"
@@ -23,7 +23,7 @@ plans:
       - "100% copyright on the content"
       - "Google Analytics setup"
     button: "Choose Starter"
-    url: "/contact/"
+    url: "/contact"
 
   - name: Professional
     price: "$799"
@@ -35,7 +35,7 @@ plans:
       - "CMS setup (WordPress/Wix/Squarespace)"
       - "6 month support"
     button: "Choose Professional"
-    url: "/contact/"
+    url: "/contact"
     popular: true
 
   - name: Premium
@@ -49,7 +49,7 @@ plans:
       - "Any third-party integrations"
       - "1 Year support"
     button: "Choose Premium"
-    url: "/contact/"
+    url: "/contact"
 
   - name: Business Support
     price: "$299"
@@ -60,7 +60,7 @@ plans:
       - "Ongoing SEO"
       - "Security monitoring"
     button: "Contact Us"
-    url: "/contact/"
+    url: "/contact"
 
   - name: Enterprise
     price: "Custom Quote"
@@ -70,4 +70,4 @@ plans:
       - "Dedicated support team"
       - "SLAs & priority response"
     button: "Contact Us"
-    url: "/contact/"
+    url: "/contact"
