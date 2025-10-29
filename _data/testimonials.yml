@@ -1,15 +1,9 @@
 testimonials:
-  - name: "Arati C."
-    role: "Nonprofit Community Manager"
-    review: "EZOPINC helped us launch our website quickly and professionally. The team was responsive and delivered exactly what we needed."
-    stars: 5
-    project: "https://ezopinc.github.io/sdpcc/"
-
   - name: "Barsha M."
     role: "Enterpreneur"
-    review: "They helped me with the initial setup and now I am looking forward to integrate e-commerce features soon."
+    review: "EZOPINC helped me with the initial setup and now I am looking forward to integrate e-commerce features soon."
     stars: 5
-    project: "https://ezopinc.github.io/Swad/"
+    project: "https://indianswadkitchen.ca/"
 
   - name: "Sushmita D."
     role: "Founder and Choregrapher"
